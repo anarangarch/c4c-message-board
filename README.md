@@ -29,6 +29,6 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/message-board-app.git
+   git clone https://github.com/A-Narang/message-board-app.git
 
 node app.js in terminal to run app
