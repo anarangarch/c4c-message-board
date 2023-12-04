@@ -1,0 +1,74 @@
+/* public/styles.css */
+body {
+  font-family: 'Helevetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.message-board {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.input-container {
+  background-color: #ffffff;
+  outline: 1px solid #88BDBC;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#message-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #88BDBC;
+  outline: 1px solid #254E58;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #254E58;
+}
+
+#messages-container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px); /* Adjusted for the input container and margin */
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #88BDBC;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message timestamp {
+  font-size: 12px;
+  color: #7f8c8d;
+}
